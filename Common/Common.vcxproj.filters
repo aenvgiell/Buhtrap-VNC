@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\AMD64">
+      <UniqueIdentifier>{7f6c1277-d7f1-411f-8ba2-f78c80f57c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\i386">
+      <UniqueIdentifier>{87802f80-c69d-45f4-8593-2bf413c514d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllntfy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pesup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pssup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AMD64\x64stubs.s">
+      <Filter>Source Files\AMD64</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="i386\w64stubs.asm">
+      <Filter>Source Files\i386</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dllntfy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="listsup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pesup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pssup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
